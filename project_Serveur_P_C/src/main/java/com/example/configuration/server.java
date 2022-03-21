@@ -25,7 +25,7 @@ public class server {
          //cree un tableau de thread
            System.out.print("Rentrer votre nombre de thread :\n");
            int nThread=Integer.parseInt(buff.nextLine());
-           Thread threadS[] = new Thread[nThread+1];
+           Thread_S threadS[] = new Thread_S[nThread+1];
            
            while(nombreClient<nThread) {
           
